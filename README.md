@@ -15,7 +15,8 @@ puts array.inspect
 or 
 [1, 2, 3].each {|x| puts x}
 ```
-Khi sử dụng block thì có hạn chế đó là khi ta muốn thay đổi đầu vào thì ta phải viết lại toàn bộ block để hiển thị giá trị cho input mới
+Khi sử dụng block thì có hạn chế đó là khi ta muốn thay đổi đầu vào thì ta phải viết lại toàn bộ block để hiển thị giá trị cho input mới.
+
 2. Proc
 
     Cấu trúc của block là đơn giản tiện dụng dễ dùng, nhưng khi ta thay đổi input thì ta lại phải viết block mới, việc này dẫn tới trùng lặp code, vì vậy ta có Proc để giải quyết vấn đề này
@@ -39,7 +40,8 @@ Gọi proc
   [2, 5, 6].each(&proc)
   ```
   Ký & để hiểu tham số truyền vào là 1proc
-1 proc là một object
+1 proc là một object 
+
 3. Lambda
 
 
