@@ -34,3 +34,39 @@ Gọi proc
   ```
   proc.call(2)
   ```
+  Khi muốn thay đổi input thì ta gọi lại với giá trị mới như sau
+  ```
+  [2, 5, 6].each(&proc)
+  ```
+  Ký & để hiểu tham số truyền vào là 1proc
+1 proc là một object
+3. Lambda
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
