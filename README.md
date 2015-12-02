@@ -1,5 +1,5 @@
 # block-lambda-proc
-1. Block
+</b>1. Block
 
     Block đơn giản chỉ là tập hợp các lệnh thành một khối
     Được đặt trong dấu {...}
